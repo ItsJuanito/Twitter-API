@@ -2,7 +2,7 @@
 Twitter API clone containing user data and tweet timelines.
 
 # API url pattern
-<method> - https://<url>/<end-route>/<slug(s)>
+'method' - https://'url'/'end-route'/'slug(s)'
 
 # End routes for users
   - /users - to create a user
