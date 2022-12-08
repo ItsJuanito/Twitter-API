@@ -143,14 +143,3 @@ def removeFollower(username):
 def followersAll(username):
     follower_list = query_db('SELECT follower FROM followerlist WHERE username=?;', (username, ))
     return jsonify(follower_list)
-
-
-'''
-Current Users:
-
-Juancho, IAmJuan
-Johnie, JStarz
-Zac23, InterGrull
-Amberlie15, 2DayisLit
-Christoff, ParisKing 
-'''
